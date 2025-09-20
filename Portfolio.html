@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio Website</title>
+  <link rel="stylesheet" href="styles.css">
+ <script src="https://kit.fontawesome.com/6ec08b2e7e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+<div class="container">
+<nav>
+  <img src="images/logo.png" class="logo" alt="Brian Logo">
+ <ul>
+  <li><a href="#header">Home</a></li>
+  <li><a href="#about">About</a></li>
+  <li><a href="#services">Services</a></li>
+  <li><a href="#portfolio">Portfolio</a></li>
+  <li><a href="#contact">Contact</a></li>
+</ul>
+  
+</nav>
+<div class="header-text">
+<p>Web Developer</p>
+<h1>Hi, I'm <span>Brian Alcoran</span><br> From Philippines</h1>
+
+</div>
+</div>
+  </div>
+
+
+  <!-- -----about starts here----- -->
+  <div id="about">
+<div class="container">
+<div class="row">
+  <div class="about-col-1">
+    <img src="images/user.png">
+  </div>
+ <div class="about-col-2">
+  <h1 class="sub-title">About Me</h1>
+  <p>
+       I am a Web Developer with experience in creating responsive and user-friendly websites. 
+                            I have a strong foundation in HTML, CSS, JavaScript, Java, PHP, and MySQL. 
+                            I am passionate about learning new technologies and improving my skills to deliver 
+                            high-quality web solutions.
+                        </p>
+  <div class="tab-titles">
+<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+<p class="tab-links" onclick="opentab('experience')">Experience</p>
+<p class="tab-links" onclick="opentab('education')">Education</p>
+  </div>
+  <div class="tab-contents active-tab" id="skills">
+     <ul>
+       <li><span>Web Development</span><br>Web App Development</li>
+        <li><span>Front-End Development</span><br>Web design and User interface</li>
+         <li><span>Back-End Development</span><br>Server-side logic and Database</li>
+     </ul>
+
+  </div>
+   <div class="tab-contents" id="experience">
+     <ul>
+        <li><span>2024 - 2025</span><br>Made a Business Website</li>
+         <li><span>2025</span><br>Made a Fully Functional Web Application System</li>
+     </ul>
+
+  </div>
+   <div class="tab-contents" id="education">
+     <ul>
+      <li><span>2023 - current</span><br>I.T student at Ateneo De Zamboanga University</li>
+     </ul>
+
+                 </div>
+            </div>
+ 
+        </div>
+      </div>
+  </div>
+<!-- -----about end here----- -->
+ 
+<!-- ------services starts here----- -->
+<div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+       <div class="services-list">
+        <div> 
+          <i class="fas fa-code"></i>
+          <h2>Web Design & Front-End Development</h2>
+          <p> I design and build responsive, visually appealing websites using HTML, CSS, JavaScript, and modern frameworks. My focus is on creating intuitive layouts, fast load times, and mobile-friendly experiences that match your brand identity.</p>
+          <a href="#"> Learn more</a>
+        </div>
+        <div> 
+          <i class="fa-solid fa-server"></i>
+          <h2>Back-End Development</h2>
+          <p> I develop secure and scalable back-end systems using PHP, MySQL, and other server-side technologies. This includes designing databases, writing APIs, and integrating third-party services to make your website or application run smoothly behind the scenes.</p>
+          <a href="#"> Learn more</a>
+        </div>
+        <div> 
+          <i class="fas fa-laptop-code"></i>
+          <h2>Web Application Development</h2>
+          <p> I build custom web applications tailored to your business needs. From user authentication to data dashboards, I handle both the front-end and back-end so you get a complete, fully functional solution that improves efficiency and user experience.</p>
+          <a href="#"> Learn more</a>
+        </div>
+        
+       </div>
+   </div>
+</div>
+<!-- -----services ends here----- -->
+
+<!-- ------portfolio starts here----- -->
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="images/Flicks.jpg">
+        <div class="layer">
+          <h3>Business Website</h3>
+          <p>A Website for a local business where you can choose and book your room and Watch your favorite Movies. </p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+       <div class="work">
+        <img src="images/SDU.jpg">
+        <div class="layer">
+          <h3>Web Application System</h3>
+          <p>A Tracking System for a school office where the Admin can track the staffs different trainings attended. </p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+       <div class="work">
+        <img src="images/calculator.jpg">
+        <div class="layer">
+          <h3>Basic Calculator</h3>
+          <p>A Basic Calculator for Educational Purposes. </p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+  </div>
+</div>
+<!-- ------portfolio ends here----- -->
+
+
+
+<!-- ------contact starts here----- -->
+ <div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-paper-plane"></i> brianjustine123@gmail.com</p>
+        <p><i class="fa-solid fa-square-phone"></i> 09666389988</p>
+        <div class="social-icons">
+          <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>   
+          <a href=""><i class="fa-brands fa-x-twitter"></i></a> 
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>      
+        </div>
+        <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+      </div>
+      <div class="contact-right">
+        <form>
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+  <div class="copyright">
+    <p>Copyright © Brian. 2025 </p>
+  </div>
+</div>
+
+<script> 
+  var tablinks = document.getElementsByClassName("tab-links");
+  var tabcontents = document.getElementsByClassName("tab-contents");
+
+  function opentab(tabname){
+     for(tablink of tablinks){
+      tablink.classList.remove("active-link");
+     }
+  for(tabcontent of tabcontents){
+      tabcontent.classList.remove("active-tab");
+     }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+  }
+(function(){
+  
+  const nav = document.querySelector('nav');
+  const navHeight = nav ? Math.ceil(nav.getBoundingClientRect().height) : 0;
+
+  function easeInOutQuad(t){ return t < 0.5 ? 2*t*t : -1 + (4-2*t)*t; }
+
+  function smoothScrollTo(endY, duration = 600) {
+    const startY = window.pageYOffset;
+    const diff = endY - startY;
+    if (diff === 0) return;
+    let startTime = null;
+    function step(timestamp) {
+      if (!startTime) startTime = timestamp;
+      const elapsed = timestamp - startTime;
+      const progress = Math.min(elapsed / duration, 1);
+      const eased = easeInOutQuad(progress);
+      window.scrollTo(0, Math.round(startY + diff * eased));
+      if (elapsed < duration) {
+        requestAnimationFrame(step);
+      }
+    }
+    requestAnimationFrame(step);
+  }
+
+  
+  document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+      const href = this.getAttribute('href');
+      if (!href || href === '#') return; 
+      const target = document.querySelector(href);
+      if (!target) return; 
+      e.preventDefault(); 
+
+      
+      const targetTop = Math.round(target.getBoundingClientRect().top + window.pageYOffset - navHeight);
+
+      
+      smoothScrollTo(Math.max(0, targetTop), 600);
+
+      
+      try { history.pushState(null, '', href); } catch (err) {}
+    }, { passive: false });
+  });
+})();
+</script>
+</body>
+</html>
